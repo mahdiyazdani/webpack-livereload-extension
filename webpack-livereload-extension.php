@@ -37,3 +37,4 @@ function webpack_livereload_extension_script() {
 }
 
 add_action( 'wp_head', 'webpack_livereload_extension_script' );
+add_action( 'admin_head', 'webpack_livereload_extension_script' );
